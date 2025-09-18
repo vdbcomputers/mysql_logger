@@ -1,0 +1,10 @@
+{
+  "name": "MySQL Logger",
+  "shortName": "mysql_logger",
+  "version": "1.0.0",
+  "author": "VDB Computers",
+  "description": "Logt MeshCentral events naar een MySQL/MariaDB database",
+  "hasAdminPanel": false,
+  "main": "plugin.js",
+  "meshCentralCompat": ">=1.1.50"
+}
