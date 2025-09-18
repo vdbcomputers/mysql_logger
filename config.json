@@ -5,6 +5,14 @@
   "author": "VDB Computers",
   "description": "Logt MeshCentral events naar een MySQL/MariaDB database",
   "hasAdminPanel": false,
-  "main": "plugin.js",
+  "homepage": "https://github.com/vdbcomputers/mysql_logger",
+  "changelogUrl": "https://raw.githubusercontent.com/vdbcomputers/mysql_logger/master/changelog.md",
+  "configUrl": "https://raw.githubusercontent.com/vdbcomputers/mysql_logger/master/config.json",
+  "downloadUrl": "https://github.com/vdbcomputers/mysql_logger/archive/master.zip",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vdbcomputers/mysql_logger.git"
+  },
+  "versionHistoryUrl": "https://api.github.com/repos/vdbcomputers/mysql_logger/tags",
   "meshCentralCompat": ">=1.1.50"
 }
