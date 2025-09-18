@@ -1,18 +1,18 @@
 {
-  "name": "MySQL Logger",
-  "shortName": "mysql_logger",
-  "version": "1.0.0",
-  "author": "VDB Computers",
-  "description": "Logt MeshCentral events naar een MySQL/MariaDB database",
+  "name": "Sample Plugin",
+  "shortName": "sample",
+  "version": "0.0.2",
+  "author": "Ryan Blenis",
+  "description": "A sample plugin. Prompt for note on remote desktop disconnect.",
   "hasAdminPanel": false,
-  "homepage": "https://github.com/vdbcomputers/mysql_logger",
-  "changelogUrl": "https://raw.githubusercontent.com/vdbcomputers/mysql_logger/master/changelog.md",
-  "configUrl": "https://raw.githubusercontent.com/vdbcomputers/mysql_logger/master/config.json",
-  "downloadUrl": "https://github.com/vdbcomputers/mysql_logger/archive/master.zip",
+  "homepage": "https://github.com/ryanblenis/MeshCentral-Sample",
+  "changelogUrl": "https://raw.githubusercontent.com/ryanblenis/MeshCentral-Sample/master/changelog.md",
+  "configUrl": "https://raw.githubusercontent.com/ryanblenis/MeshCentral-Sample/master/config.json",
+  "downloadUrl": "https://github.com/ryanblenis/MeshCentral-Sample/archive/master.zip",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vdbcomputers/mysql_logger.git"
+    "url": "https://github.com/ryanblenis/MeshCentral-Sample.git"
   },
-  "versionHistoryUrl": "https://api.github.com/repos/vdbcomputers/mysql_logger/tags",
-  "meshCentralCompat": ">=1.1.50"
+  "versionHistoryUrl": "https://api.github.com/repos/ryanblenis/MeshCentral-Sample/tags",
+  "meshCentralCompat": ">=0.4.4-s"
 }
