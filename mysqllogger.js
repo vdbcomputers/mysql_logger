@@ -1,6 +1,6 @@
 /** 
-* @description MeshCentral Sample Plugin
-* @author Ryan Blenis
+* @description MYSQL Logger Plugin
+* @author Jeroen van den Boogaart
 * @copyright 
 * @license Apache-2.0
 * @version v0.0.1
@@ -8,7 +8,7 @@
 
 "use strict";
 
-module.exports.sample = function (parent) {
+module.exports.mysqllogger = function (parent) {
     var obj = {};
     obj.parent = parent; // keep a reference to the parent
     obj.exports = [
