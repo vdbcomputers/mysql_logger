@@ -26,7 +26,7 @@ module.exports.mysqllogger = function (parent) {
 
     function logEvent(type, node, details) {
         db.query(
-            "INSERT INTO events (event_type, server_name, details, timestamp) VALUES (?,?,?,NOW())",
+            "INSERT INTO events2 (event_type, server_name, details, timestamp) VALUES (?,?,?,NOW())",
             [
                 type,
                 node ? node.name : null,
